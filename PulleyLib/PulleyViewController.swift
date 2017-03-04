@@ -353,7 +353,7 @@ open class PulleyViewController: UIViewController {
         }
         
         // Setup
-        primaryContentContainer.backgroundColor = UIColor.white
+        primaryContentContainer.backgroundColor = UIColor.clear
         
         definesPresentationContext = true
         
@@ -393,11 +393,7 @@ open class PulleyViewController: UIViewController {
         }
         
         drawerScrollView.addSubview(drawerContentContainer)
-        
-        primaryContentContainer.backgroundColor = UIColor.white
-        
-        self.view.backgroundColor = UIColor.white
-        
+
         self.view.addSubview(primaryContentContainer)
         self.view.addSubview(backgroundDimmingView)
         self.view.addSubview(drawerScrollView)
